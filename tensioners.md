@@ -1,6 +1,6 @@
 ### Who needs rubber bands on their delta printer arms?
 
-I see many people hooking up rubber bands, sprintgs, printed or other tensioners to their diagonal arms.
+I see many people hooking up rubber bands, springs, printed or other tensioners to their diagonal arms.
 
 This is a problem, because these rubber bands are 
 
@@ -23,7 +23,7 @@ On top,  these elastic things hold stuff up to a certain force, and when the for
 
 ### Conclusion
 
-When 'the rubber bands are necessary', what really necesseray is to replace the joints (also means replacing the arms).
-These tensioner/rubberband constructions are sacrificing both the accuracy of the printer and speeding up wear and tear.
+When *the rubber bands are necessary*, what really necesseray is to replace the joints (usually also means replacing the arms).
+These tensioner constructions are sacrificing both the accuracy of the printer and speeding up wear and tear.
 
 I don't say not to use them! But they are spare wheels of a delta printer. On your car you use your spare wheel only as long as you get a proper one. You should also do the same to your printer.
