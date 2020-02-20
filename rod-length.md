@@ -1,3 +1,5 @@
+### My prints are too big / too small in x-y dimensions, but completely OK in Z, why?
+
 When the printed object is not accurate on the x-y plane, the length of the diagonal rods are not correct.
 
 The problems can be classified in two groups:
@@ -9,6 +11,8 @@ The problems can be classified in two groups:
 
 In this case, on x and y axis, all dimensions will be equally off.
 This can be mitigated by multiplying diagonal rod length and delta radius in the firmware with the inverse of the error.
+
+This problem is usually paired with different levels of **over- or underextrusion**, because the printer calculates the extruded material for the volume which shall be printed, but since it _actually_ prints a smaller or bigger piece, the material will be too much (too little) respectively. 
 
 ### The 6 diagonal rods are not exacly the same long
 
