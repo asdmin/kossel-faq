@@ -13,7 +13,7 @@ This is a problem, because these rubber bands are
 If one's printer can print nicely without them, the rubber bands will not add to the print quality.
 They will, however generate a constant and unnecessary force on the joint, which will increase their wear.
 
-#### Sacrificing quality: 
+#### Sacrificing quality
 
 If something is loose enough that it moves/shifts/rattles or otherwise be in a position it is not supposed to be, it will be __anywhere except where it should be__.
 One can hook up a couple of rubber bands and force a joint to be at __one__ of the many possible positions it may otherwise be, but it will never be in the __correct one__.
