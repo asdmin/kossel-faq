@@ -22,6 +22,14 @@ Direct results are:
 
 - leveling problems (which the bed leveling routine usually hides),
 - dimensional inaccuracy on x-y plane, where the error on x and y is not the same,
+- straight lines aren't really straight (slightly bent, usually detectable with a caliper),
 - accelerated wear on rods and joings, which in extreme cases can simply snap.
 
 This type of problem is best resolved by replacing the arms of the printer.
+
+As workaround, one could
+
+- rearrange the rods so, that rods going to the same tower are very similar in length, and
+- follow up with complicated changes in firmware to compensate the differences between rod-pairs.
+
+Generally speaking, the effort required for this usually exceeds the effort and cost required to order new sets of rods.
