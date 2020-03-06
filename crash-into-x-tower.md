@@ -31,6 +31,8 @@ This is also recommended by the Marlin endstop page (https://marlinfw.org/docs/h
 
 ## Workarounds
 
+These are only workarounds, because they do not _eliminate_ the problem, but reduce the frequency of the problem occuring. Some of them may be combined to reduce the effect even further.
+
 * use g-code (G0, G1) to raise the head near the top before homing: this is limited in use, because G0 and G1 moves are only processed when the exact location of the head is known. The move command will not be executed (head raised before homing) if 
   * the printer was just turned on (position was never known), or
   * after the steppers were disabled (position was lost), or
