@@ -2,16 +2,21 @@
 
 The homing is done in two stages, which anyone can see when it is done successful:
 
-1. all towers raise until any of the endstops trigger,
-1. after that the towers are homed one by one in x-y-z order
+1. all towers raise until any of the endstops trigger, after that
+1. the towers are homed one, by one in x-y-z order
 
 # What is the problem
 
-On the origiginal kossel , which is not protected agains electromagnetic interference (EMI), the EMI causes a false positive endstop reading, which triggers the second stage of the homing process too early.
-This can happen on any endstop, but it is usually the y tower where the extruder is mounted.
+On the origiginal kossel,
+which is not properly protected against electromagnetic interference (EMI),
+the EMI causes a false positive endstop reading,
+which triggers the second stage of the homing process too early.
+This can happen on any endstop,
+but it is usually happening to the Y tower endstop,
+because it's where the extruder is mounted.
 
 EMI is mainly caused by
-* the heated bed (high current)
+* the heated bed (high current and PWM)
 * heated bed wiring (uses high current and PWM)
 * stepper motors (high frequency PWM)
 * stepper motor cables (high frequency PWM).
