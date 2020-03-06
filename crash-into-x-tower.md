@@ -33,8 +33,9 @@ This is also recommended by the Marlin endstop page (https://marlinfw.org/docs/h
 
 * raise the head near the top before homing: this is limited, because moves are processed when the exact location of the head is not known - so it does not work always.
 * disable extruder motor and heated bed before homing: these are the most notorious emi sources, but not the only ones
-* twist the endstop cables, even shield them if you can.
+* twist the endstop cables (https://en.wikipedia.org/wiki/Twisted_pair)
+* use EMI shielded endstop cables 
 * rearrange the cables. This mainly means to distance them from EMI sources.
-  * pull them away from the heated bed,
+  * pull them away from the heated bed, and its high current wiring
   * route extruder motor cable and y endstop cable on different sides of the tower
-  * etc
+  * prevent routing power cables from PSU close to endstop cables
