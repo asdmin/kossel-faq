@@ -32,8 +32,9 @@ This is also recommended by the Marlin endstop page (https://marlinfw.org/docs/h
 ## Workarounds
 
 * use g-code (G0, G1) to raise the head near the top before homing: this is limited in use, because G0 and G1 moves are only processed when the exact location of the head is known. The move command will not be executed (head raised before homing) if 
-  * the printer was just turned on (position was never known), nor
-  * after the steppers were disabled (position was lost). 
+  * the printer was just turned on (position was never known), or
+  * after the steppers were disabled (position was lost), or
+  * geometry of the printer has changed (position became invalid).
 * disable extruder motor and heated bed before homing: these are the most notorious emi sources, but not the only ones
 * twist the endstop cables (see https://en.wikipedia.org/wiki/Twisted_pair)
 * use EMI shielded endstop cables 
