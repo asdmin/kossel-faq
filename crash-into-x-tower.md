@@ -7,7 +7,7 @@ The homing is done in two stages, which anyone can see when it is done successfu
 
 # What is the problem
 
-On the origiginal kossel,
+On the original kossel,
 which is not properly protected against electromagnetic interference (EMI),
 the EMI causes a false positive endstop reading,
 which triggers the second stage of the homing process too early.
