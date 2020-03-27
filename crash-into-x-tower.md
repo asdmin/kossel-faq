@@ -8,6 +8,8 @@ As result,
 the effector is crashed into the X tower,
 and the homing routine reports failure.
 
+It may or may not happen, but when it does, it is always the X tower the effector crashes into.
+
 # How it should work (background)
 
 The homing is done in two stages, which anyone can see when it is done successful:
