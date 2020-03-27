@@ -14,7 +14,7 @@ It may or may not happen, but when it does, it is always the X tower the effecto
 
 The homing is done in two stages, which anyone can see when it is done successful:
 
-1. all towers raise until any of the endstops trigger, after that
+1. all towers simultaneously raise until any of the endstops trigger, after that
 1. the towers are homed one, by one in x-y-z order
 
 # What is the problem
@@ -26,8 +26,10 @@ The EMI causes a false positive endstop reading on one of the towers (any of the
 which triggers the second stage of the homing process too early.
 
 When this happens,
-the effector always crashes into the X tower,
-because the prematurely triggered second phase starts with homing the X tower.
+the effector *always crashes into the X tower*,
+because the prematurely triggered second phase starts with homing the X tower,
+and during this, the carriage is pulled high enough,
+that the effector nears (touches) the X tower.
 
 The EMI can trigger a false positive endstop reading on any of the endstops,
 but the affected endstop is usually the X tower's,
